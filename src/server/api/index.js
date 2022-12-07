@@ -14,7 +14,7 @@ const router = express.Router();
 
 router.get('/', (_req, res) => {
 	res.send(
-		'<h1>This is the InstaYa API, hosted from <a href="https://fly.io">Fly.io</a>!</h1>',
+		'<h1>Connected to InstaYa API</h1>',
 	);
 });
 
